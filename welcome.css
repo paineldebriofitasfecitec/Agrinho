@@ -1,0 +1,91 @@
+.avatar-options {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.avatar-options label {
+    cursor: pointer;
+}
+
+.avatar-circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #ddd;
+}
+
+.avatar-circle img {
+    width: 100%;
+    height: auto;
+}
+
+#perfilUsuario {
+    text-align: center;
+    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+    .avatar-circle {
+        width: 75px;
+        height: 75px;
+    }
+    
+}
+#avatarSelecionado {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+}
+
+.btn-prosseguir {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.3s;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.btn-prosseguir:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+.btn-prosseguir:active {
+    background-color: #004494;
+    transform: scale(0.95);
+}
+h1 {
+    text-align: center;
+    padding: 10px;
+    margin: 20px auto;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+    width: fit-content;
+}
+.profile-info {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.avatar-section {
+    text-align: center;
+    margin-top: 20px;
+}
